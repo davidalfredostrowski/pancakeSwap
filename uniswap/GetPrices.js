@@ -11,7 +11,7 @@ const { erc20ABI, factoryABI, pairABI, routerABI } = require("./AbiList");
 
 // Standard Provider
 const provider = new ethers.providers.JsonRpcProvider(
-  "https://sepolia.infura.io/v3/294414f3e0c747b495c7c2278d27deaa"
+  "https://sepc"
 );
 
 // Connect to Factory
